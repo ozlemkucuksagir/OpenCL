@@ -1,0 +1,4 @@
+mpicc -o out openmp_mpi.c -lm -fopenmp
+./out testA.txt
+gcc -o output main.c -lOpenCL -lm
+./output
